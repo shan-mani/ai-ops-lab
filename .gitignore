@@ -1,0 +1,18 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+*.auto.tfvars
+crash.log
+# Secrets and local env
+.env
+secrets.*
+# Python and ML artifacts
+.venv/
+__pycache__/
+mlruns/
+mlartifacts/
+adapters/
+*.gguf
+# promptfoo output
+redteam/output/
